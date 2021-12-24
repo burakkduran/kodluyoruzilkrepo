@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <div>
+            <label for="adi">Adınız</label>
+            <input name="adi" id="adi" type="text" required>
+        </div>
+
+        <div>
+            <label for="soyadi">Soyadınız</label>
+            <input name="soyadi" id="soyadi" type="text" required>
+        </div>
+
+        <div>
+            <label for="tel">Telefon Numaranız</label>
+            <input name="tel" id="tel" type="tel">
+        </div>
+
+        <div>
+            <label for="mail">E-Mailiniz</label>
+            <input name="mail" id="mail" type="text" required>
+        </div>
+
+        <div>
+            <label for="mesaj">Mesajınız</label>
+            <textarea name="mesaj" id="mesaj" cols="50" rows="4" ></textarea>
+        </div>
+
+        <div>
+            <label for="yazilimci">Yazılımcı</label>
+            <input name="yazilimci" id="yazilimci" type="text" value="Burak" disabled>
+        </div>
+
+        <div>
+            <label for="sehir">Şehrinizi Seçiniz</label>
+            <select name="sehir" id="sehir">
+                <option value="Istanbul">İstanbul</option>
+                <option value="Ankara">Ankara</option>
+                <option value="Antalya">Antalya</option>
+                <option value="Izmir">İzmir</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="dosya">Dosyanız</label>
+            <input name="dosya" id="dosya" type="file">
+        </div>
+
+        <div>
+            <label for="renk">Sevdiğiniz Renk</label>
+            <input type="radio" name="renk" value="Kırmızı"> Kırmızı
+            <input type="radio" name="renk" value="Yesil"> Yeşil
+            <input type="radio" name="renk" value="Sarı"> Sarı
+        </div>
+
+        <div>
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
