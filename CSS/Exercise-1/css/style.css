@@ -33,12 +33,13 @@ textarea{
     width: 100%;
     border-radius: 5px;
     height: 42px;
-    border-radius: 1px solid rgba(0,0,0,0.2) ;
+    border: 1px solid rgba(0,0,0,0.2) ;
     padding-left: 15px;
     padding-right: 15px;
     font-size: inherit;
     font-family: inherit;
     background-color: white;
+    border-width: 1px;
 }
 
 input[type="text"]::placeholder,
