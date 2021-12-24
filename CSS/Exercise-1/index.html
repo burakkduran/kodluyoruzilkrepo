@@ -9,37 +9,32 @@
 </head>
 <body>
     <form action="https://httpbin.org/post" method="post">
+
         <div>
+            <input type="hidden" name="product" value="samsung-galaxy-e5">
+        </div>
+
+        <div class="form-row">
             <label for="adi">Adınız</label>
-            <input name="adi" id="adi" type="text" required>
+            <input name="adi" id="adi" type="text" required placeholder="Burak Duran">
         </div>
 
-        <div>
-            <label for="soyadi">Soyadınız</label>
-            <input name="soyadi" id="soyadi" type="text" required>
-        </div>
-
-        <div>
+        <div class="form-row">
             <label for="tel">Telefon Numaranız</label>
             <input name="tel" id="tel" type="tel">
         </div>
 
-        <div>
+        <div class="form-row">
             <label for="mail">E-Mailiniz</label>
             <input name="mail" id="mail" type="text" required>
         </div>
 
-        <div>
+        <div class="form-row">
             <label for="mesaj">Mesajınız</label>
             <textarea name="mesaj" id="mesaj" cols="50" rows="4" ></textarea>
         </div>
 
-        <div>
-            <label for="yazilimci">Yazılımcı</label>
-            <input name="yazilimci" id="yazilimci" type="text" value="Burak" disabled>
-        </div>
-
-        <div>
+        <div class="form-row">
             <label for="sehir">Şehrinizi Seçiniz</label>
             <select name="sehir" id="sehir">
                 <option value="Istanbul">İstanbul</option>
@@ -49,19 +44,16 @@
             </select>
         </div>
 
-        <div>
-            <label for="dosya">Dosyanız</label>
-            <input name="dosya" id="dosya" type="file">
+        <div class="form-row">
+            <p>Sevdiğiniz Renk</p>
+            <div class="radio-container">
+                <label><input type="radio" name="renk" value="Kırmızı"> Kırmızı</label>
+            <label><input type="radio" name="renk" value="Yesil"> Yeşil</label>
+            <label><input type="radio" name="renk" value="Sarı"> Sarı</label>
+            </div>
         </div>
 
-        <div>
-            <label for="renk">Sevdiğiniz Renk</label>
-            <input type="radio" name="renk" value="Kırmızı"> Kırmızı
-            <input type="radio" name="renk" value="Yesil"> Yeşil
-            <input type="radio" name="renk" value="Sarı"> Sarı
-        </div>
-
-        <div>
+        <div class="form-row">
             <button type="reset">Sıfırla</button>
             <button type="submit">Gönder</button>
         </div>
