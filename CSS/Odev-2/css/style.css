@@ -1,0 +1,68 @@
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.box-1 {
+    background-color: #eee;
+}
+
+.box-2 {
+    margin-top: 2px;
+}
+
+
+
+.center,
+.butons,
+.box-1 > form > input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-1 > form > input {
+    width: 317px;
+}
+
+
+
+.card-1,
+.card-2,
+.card-3{
+    display: block;
+    float: left;
+    width: 33%;
+    height: 76px;
+    text-align: center;
+    background-color: red;
+    margin-left: 1px;
+    box-sizing: border-box;
+}
+
+.card-1 {
+    background-color: #7ee5da;
+    padding: 11px;
+}
+
+.card-2 {
+    font-size: 13px;
+    background-color: #70ccc2;
+    padding: 5px;
+}
+
+.card-3 {
+    background-color: #62b3aa;
+    font-size: 13px;
+}
+
+p {
+    margin: 0px auto;
+    
+}
+
+
+
+
+
+
