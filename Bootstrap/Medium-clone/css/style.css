@@ -14,3 +14,22 @@ body {
 .btn-dark {
     background-color: black;
 }
+
+.number-style {
+    font-weight:700;
+    font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: rgba(230, 230, 230, 1);
+}
+
+.article-font-style {
+    font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.btn-light {
+    background-color: #f2f2f2 !important;
+}
+
+.btn-outline-dark {
+    border-color: rgba(230, 230, 230, 1);
+}
