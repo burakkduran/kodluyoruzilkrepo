@@ -1,0 +1,16 @@
+body {
+    font-family: 'PT Serif', serif;
+
+}
+
+.border-bottom {
+    border-color: black !important;
+}
+
+.text-dark{
+    color: black !important;
+}
+
+.btn-dark {
+    background-color: black;
+}
